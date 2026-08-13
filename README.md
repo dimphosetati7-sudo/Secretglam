@@ -5,7 +5,7 @@
 **Subject:** WEDE5020  
 **Student Name:** Mabora Dimpho Setati  
 **Student Number:** ST10528234  
-**Group:** [Add if applicable]
+**Group:** Group 5
 
 ---
 
