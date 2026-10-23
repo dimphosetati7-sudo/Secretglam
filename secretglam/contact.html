@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Secret Glam by Dimpho | Lash and Brow Services</title>
+
+    <meta name="description" content="Contact Secret Glam by Dimpho for questions about lash extensions, brow services and appointments in Pretoria and Polokwane.">
+
+    <meta name="keywords" content="Secret Glam by Dimpho, contact lash technician, lash extensions Pretoria, lash services Polokwane, brow services">
+
+    <link rel="stylesheet" href="css_assets/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <img src="_images/Logo.png"
+             alt="Secret Glam by Dimpho Logo"
+             width="150">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CONTACT INTRODUCTION -->
+        <section>
+            <h1>Contact Us</h1>
+
+            <p>
+                We would love to hear from you. If you have questions
+                or need more information about our services, please
+                complete the contact form below.
+            </p>
+        </section>
+
+        <!-- CONTACT DETAILS -->
+        <section>
+            <h2>Contact Details</h2>
+
+            <p>
+                <strong>Business Name:</strong>
+                Secret Glam by Dimpho
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                <a href="tel:0760384543">076 038 4543</a>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:Secretglambydimpho@gmail.com">
+                    Secretglambydimpho@gmail.com
+                </a>
+            </p>
+        </section>
+
+        <!-- BUSINESS HOURS -->
+        <section>
+            <h2>Business Hours</h2>
+
+            <p><strong>By Appointment Only</strong></p>
+
+            <p>
+                We operate by appointment to give every client our
+                full attention. Please use our enquiry page to request
+                an appointment.
+            </p>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section>
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete this form with your details and message.
+                Your email application will open so you can review
+                and send your message.
+            </p>
+
+            <form id="contactForm"
+                  action="mailto:Secretglambydimpho@gmail.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="fullName">Full Name:</label>
+                <input type="text"
+                       id="fullName"
+                       name="fullName"
+                       required
+                       minlength="2"
+                       maxlength="80"
+                       placeholder="Enter your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required
+                       placeholder="Enter your email address">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       pattern="[0-9 +()-]{7,20}"
+                       title="Enter a valid phone number using numbers, spaces or + - ( )"
+                       placeholder="Enter your phone number">
+
+                <label for="messageType">Message Type:</label>
+                <select id="messageType" name="messageType" required>
+                    <option value="">Choose a message type</option>
+                    <option value="General Question">General Question</option>
+                    <option value="Service Information">Service Information</option>
+                    <option value="Pricing">Pricing</option>
+                    <option value="Existing Booking">Existing Booking</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          minlength="10"
+                          maxlength="2000"
+                          required
+                          placeholder="Type your message here"></textarea>
+
+                <p id="contactFormMessage" aria-live="polite"></p>
+
+                <button type="submit">Prepare Email</button>
+            </form>
+        </section>
+
+        <!-- BOOKING INFORMATION -->
+        <section>
+            <h2>Ready to Book?</h2>
+
+            <p>
+                If you would like to request a lash or brow appointment,
+                please complete our booking enquiry form.
+            </p>
+
+            <p>
+                <a href="enquiry.html">Make an Enquiry</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+
+        <p><strong>Secret Glam by Dimpho</strong></p>
+
+        <p>Serving Pretoria and Polokwane, South Africa</p>
+
+        <p>Phone: 076 038 4543</p>
+
+        <p>Email: Secretglambydimpho@gmail.com</p>
+
+        <p>&copy; 2026 Secret Glam by Dimpho. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
